@@ -1,0 +1,21 @@
+.thumbnail-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .each-image {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media (max-width: 767px) {
+  .each-image {
+    height: 180px;
+    width: 180px;
+  }
+}
